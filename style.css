@@ -1,6 +1,13 @@
 .manrope{
   font-family: "Manrope", sans-serif;  
 }
+/* form section bg-image */
+.form-bg {
+    background-image: url(/assets/bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
 @media screen and (max-width:600px) {
     .menu, .nav-btn{
         display: none;
